@@ -967,7 +967,7 @@ local function fn()
 	local nightHubAuthRewrite = {
 		Valid = true,
 		Details = nil,
-		Finished = false,
+		Finished = true,
 		Stop = function()
 			v2.destroyInterface()
 		end,
