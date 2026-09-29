@@ -965,7 +965,7 @@ local function fn()
 	end
 
 	local nightHubAuthRewrite = {
-		Valid = false,
+		Valid = true,
 		Details = nil,
 		Finished = false,
 		Stop = function()
